@@ -1,0 +1,47 @@
+{
+  "development": {
+    "URI": "postgres://swfxdoahzbsigb:5a59d527f369f13de8ecc4dacf6f3005164d705fb90dc321a0ab7b77fdc1e73d@ec2-34-225-167-77.compute-1.amazonaws.com:5432/dr5nvfc2l2sod",
+    "username": "swfxdoahzbsigb",
+    "password": "5a59d527f369f13de8ecc4dacf6f3005164d705fb90dc321a0ab7b77fdc1e73d",
+    "database": "dr5nvfc2l2sod",
+    "host": "ec2-34-225-167-77.compute-1.amazonaws.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+    }
+  },
+  "test": {
+    "URI": "postgres://swfxdoahzbsigb:5a59d527f369f13de8ecc4dacf6f3005164d705fb90dc321a0ab7b77fdc1e73d@ec2-34-225-167-77.compute-1.amazonaws.com:5432/dr5nvfc2l2sod",
+    "username": "swfxdoahzbsigb",
+    "password": "5a59d527f369f13de8ecc4dacf6f3005164d705fb90dc321a0ab7b77fdc1e73d",
+    "database": "dr5nvfc2l2sod",
+    "host": "ec2-34-225-167-77.compute-1.amazonaws.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "URI": "postgres://swfxdoahzbsigb:5a59d527f369f13de8ecc4dacf6f3005164d705fb90dc321a0ab7b77fdc1e73d@ec2-34-225-167-77.compute-1.amazonaws.com:5432/dr5nvfc2l2sod",
+    "username": "swfxdoahzbsigb",
+    "password": "5a59d527f369f13de8ecc4dacf6f3005164d705fb90dc321a0ab7b77fdc1e73d",
+    "database": "dr5nvfc2l2sod",
+    "host": "ec2-34-225-167-77.compute-1.amazonaws.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
